@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "celulares_tests",
+  "info": {
+    "singularName": "celulares-test",
+    "pluralName": "celulares-tests",
+    "displayName": "Celulares-Test",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "text"
+    },
+    "imagen": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
