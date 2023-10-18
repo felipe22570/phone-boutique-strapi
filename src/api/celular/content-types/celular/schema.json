@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "celulares",
+  "info": {
+    "singularName": "celular",
+    "pluralName": "celulares",
+    "displayName": "Celulares",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "text"
+    },
+    "imagen": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "precio": {
+      "type": "integer"
+    }
+  }
+}
